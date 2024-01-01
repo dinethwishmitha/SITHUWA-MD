@@ -3,19 +3,19 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '94761516805'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || '94713466375'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://SithumKalhara:97531@cluster0.iva7dbo.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'Sithumkalhara271@gmail.com'
 global.github = 'https://github.com/Sithuwa/SITHUWA-MD'
 global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com' // add your username
-global.sudo = process.env.SUDO || "94761516805"
-global.devs = '94761516805';
+global.sudo = process.env.SUDO || "94713466375"
+global.devs = '94713466375';
 global.website = 'https://github.com/Sithuwa/SITHUWA-MD' //wa.me/+94000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/15b1dd8aeaa47888d75d7.jpg'
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
+  sessionName: process.env.SESSION_ID || "SITHUWA-MD;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMEVObG9KUjJDaFQ3ZlpJbVpRWUd5L3gzMzdsZkVTU0RoMFhmUVlnbUJITT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiREFWMTZ0clM2YUFqaGJBcW01SlN1cjJHeHRGTjZTTVpKZ3I1TTRndXFucz0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVSlQrNUc2NWt5cVp0TzAzbi9URThhVVhwVDVQVEVFdVhndTZieXczQ1hRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJUODJ3eGZvWmc0NWJSUDhiT1NDb1d1d2dET2lSR20vZWo5MVpRK3F3SmljPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFLcDFrakhoa1Yzc2hqWXRyV0YwRnVHZzhkWUVPR0d5VVpkSFVvak9qWHc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjVQYnhJdUpOdWFmNmxPbzZtZ3JBaEgzd0FGVG9VZVZyc0JRVDl6T2I5bms9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJSK0p2MlhFdFRZSVNUOXRnKzlQRHEzVzJtS0J4M0cxR0lMVkl1amY4ZmZtRHFWTEpNbk1KWEhKbnlIVU9NUWRSc085cHVOUnRELzlSZU5HRDNaYzZqUT09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjEwOSwiYWR2U2VjcmV0S2V5Ijoia0pIN3RueGtHVlpNVEpEdjJEeWk1aDZ1UUpVa0NnMWJ4U3N5MEFIL3F4RT0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiQkQ4NEFRbkxRaU9yTnNBekczd0JaUSIsInBob25lSWQiOiIwOGIyZmMzZi0wZDYxLTRlODMtOTdiNi0yOTE4MjJhNjNiMzAiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNHBuaUdFNS9JK0YxVFdPRnFPQnliOVZEdTc0PSJ9LCJyZWdpc3RlcmVkIjpmYWxzZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ4NlBReDVoNnFGZzlQZjZpZ3p1Sy8vOFAwOUU9In0sInJlZ2lzdHJhdGlvbiI6e30sImFjY291bnQiOnsiZGV0YWlscyI6IkNObitwcHdHRU9mN3lLd0dHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJlQ05QRS9kWGNuazVtcnpoM2w4VnB1bU1ORTJpbDk0Mnp5eHZoaGNIcHlRPSIsImFjY291bnRTaWduYXR1cmUiOiJvSkhmY25NcVYvNndlOVU2U0phcTdKUnpYV0tVZlhCVjZ3UzcvMHNORGI4eFNiK3YvMWh4UXVPY1pUZmFhc2hqRmwxWDFkWGFLZGJaclJwSVplYUpBZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoidmlYQmpLbVJDZ0dQbmdYeUphVXlkelEzc0xBSEZ5T3VRUlJaWEpWb1Y1MEtPdTZLQy9zUVdvZDdHS0ZXc3ZPSVg4b2owUkFxcFl3TnNSM1l6S3l0amc9PSJ9LCJtZSI6eyJpZCI6Ijk0NzEzNDY2Mzc1OjJAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoi4Z+a4L+Q4oOi4bWP4oOY4oGx4oG/4bWNIOC2h+KDouC2veC3iuC3huC3j+KDouGSluKbk+KDouC3tOKDouGQteKDmOKDnCJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI5NDcxMzQ2NjM3NToyQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlhnalR4UDNWM0o1T1pxODRkNWZGYWJwakRSTm9wZmVOczhzYjRZWEI2Y2sifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MDQwODI5MjF9",      //Put Your Session Id Here
   author:  process.env.PACK_AUTHER ||  'SITHUWA BOT',
   packname:  process.env.PACK_NAME || 'MADE BY SITHUM KALHARA',
   
